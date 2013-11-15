@@ -3,6 +3,11 @@ TO DO:
 - make quicksort accept 0 and -1 as default left and right
 - create alternate choosePivot methods (random, first, mid, etc)
 '''
+import random
+
+# Random pivot
+def chooseRandPivot(array):
+	return random.choice(array)
 
 # Median-of-three pivot choosing method
 # array = array to be sorted
